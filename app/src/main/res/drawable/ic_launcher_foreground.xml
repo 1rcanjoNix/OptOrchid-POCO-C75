@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Orquídea geométrica: mesma geometria do OrchidLogo.kt (pétalas rotacionadas em torno de 54,54). -->
+    <group android:translateY="8">
+        <group android:pivotX="54" android:pivotY="54" android:rotation="0">
+            <path
+                android:fillColor="#4D7650FF"
+                android:strokeColor="#A66CFF"
+                android:strokeWidth="1.8"
+                android:strokeLineJoin="round"
+                android:pathData="M54,54 Q63,39 54,24 Q45,39 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="-62">
+            <path
+                android:fillColor="#4D7650FF"
+                android:strokeColor="#A66CFF"
+                android:strokeWidth="1.8"
+                android:strokeLineJoin="round"
+                android:pathData="M54,54 Q68,42 54,30 Q40,42 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="62">
+            <path
+                android:fillColor="#4D7650FF"
+                android:strokeColor="#A66CFF"
+                android:strokeWidth="1.8"
+                android:strokeLineJoin="round"
+                android:pathData="M54,54 Q68,42 54,30 Q40,42 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="-142">
+            <path
+                android:fillColor="#4D7650FF"
+                android:strokeColor="#A66CFF"
+                android:strokeWidth="1.8"
+                android:strokeLineJoin="round"
+                android:pathData="M54,54 Q62,45 54,36 Q46,45 54,54 Z" />
+        </group>
+        <group android:pivotX="54" android:pivotY="54" android:rotation="142">
+            <path
+                android:fillColor="#4D7650FF"
+                android:strokeColor="#A66CFF"
+                android:strokeWidth="1.8"
+                android:strokeLineJoin="round"
+                android:pathData="M54,54 Q62,45 54,36 Q46,45 54,54 Z" />
+        </group>
+        <path
+            android:fillColor="#55C8FF"
+            android:pathData="M54,51 L57,54 L54,57 L51,54 Z" />
+    </group>
+</vector>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OptOrchid</string>
+
+    <!-- Inicialização -->
+    <string name="splash_initializing">Inicializando OptOrchid...</string>
+    <string name="splash_identifying">Identificando dispositivo...</string>
+    <string name="splash_checking">Verificando recursos disponíveis...</string>
+    <string name="splash_ready">Sistema pronto.</string>
+
+    <!-- Status -->
+    <string name="status_no_alerts">Sem alertas básicos</string>
+    <string name="alert_low_memory">Memória baixa</string>
+    <string name="alert_low_storage">Armazenamento baixo</string>
+    <string name="alert_hot_battery">Bateria quente</string>
+    <string name="status_alerts_more">%1$s · +%2$d</string>
+
+    <!-- Dashboard -->
+    <string name="performance_title">Device Performance</string>
+    <string name="performance_pending">Aguardando o Orchid Engine</string>
+    <string name="performance_explain">A nota só aparece quando existir um cálculo real, com fórmula e indicadores documentados.</string>
+    <string name="optimize_now">OTIMIZAR AGORA</string>
+    <string name="optimize_unavailable_message">O Orchid Engine ainda não foi implementado. Nenhuma ação foi executada.</string>
+    <string name="unavailable">Não disponível neste dispositivo</string>
+
+    <string name="card_cpu">CPU</string>
+    <string name="card_ram">RAM</string>
+    <string name="card_display">DISPLAY</string>
+    <string name="card_battery">BATTERY</string>
+
+    <string name="cpu_cores">%1$d núcleos</string>
+    <string name="cpu_realtime_pending">Uso e frequência em tempo real chegam com o módulo de monitoramento.</string>
+    <string name="ram_used_of">%1$s de %2$s</string>
+    <string name="ram_available">Disponível: %1$s</string>
+    <string name="ram_low">Memória baixa</string>
+    <string name="display_supported">Suportadas: %1$s Hz</string>
+    <string name="display_resolution">%1$d × %2$d · %3$d dpi</string>
+    <string name="battery_charging">Carregando</string>
+    <string name="battery_not_charging">Sem carregador</string>
+    <string name="battery_temperature">Temperatura: %1$s</string>
+
+    <!-- Detalhes do dispositivo -->
+    <string name="device_details_title">Dispositivo</string>
+    <string name="detail_manufacturer">Fabricante</string>
+    <string name="detail_brand">Marca</string>
+    <string name="detail_model">Modelo</string>
+    <string name="detail_android">Android</string>
+    <string name="detail_build">Build</string>
+    <string name="detail_soc">SoC</string>
+    <string name="detail_abi">Arquitetura</string>
+    <string name="detail_cores">Núcleos</string>
+    <string name="detail_ram">RAM total</string>
+    <string name="detail_storage">Armazenamento</string>
+    <string name="detail_resolution">Resolução</string>
+    <string name="android_value">%1$s (API %2$d)</string>
+    <string name="storage_value">%1$s livres de %2$s</string>
+
+    <string name="resources_title">Recursos detectados</string>
+    <string name="resource_available">Disponível</string>
+    <string name="resource_unavailable">Indisponível</string>
+    <string name="resource_memory">Informações de memória</string>
+    <string name="resource_storage">Estatísticas de armazenamento</string>
+    <string name="resource_battery">Dados de bateria</string>
+    <string name="resource_display">Modos de tela</string>
+    <string name="resource_thermal">API de estado térmico (Android 10+)</string>
+
+    <!-- Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_back">Voltar</string>
+    <string name="settings_reduce_motion">Reduzir animações</string>
+    <string name="settings_reduce_motion_desc">Desativa transições e efeitos de movimento do aplicativo.</string>
+    <string name="settings_privacy">Privacidade</string>
+    <string name="settings_privacy_desc">Nesta versão o OptOrchid não coleta nem envia dados. Todas as leituras acontecem no próprio aparelho.</string>
+
+    <!-- Diagnóstico de tela -->
+    <string name="diag_title">Diagnóstico de tela</string>
+    <string name="diag_settings_desc">Relatório somente leitura da taxa de atualização informada pelo sistema. Não altera nem solicita nenhuma frequência.</string>
+    <string name="diag_intro">Somente leitura: este relatório mostra o que o Android informa ao OptOrchid. Nenhuma taxa é solicitada ou forçada. Para comparar, toque em "Medir" sem encostar na tela por 3 segundos e repita rolando a tela. Depois, copie o relatório.</string>
+    <string name="diag_measure">Medir cadência de vsync (3 s)</string>
+    <string name="diag_measuring">Medindo...</string>
+    <string name="diag_refresh">Atualizar leitura</string>
+    <string name="diag_copy">Copiar relatório</string>
+</resources>
